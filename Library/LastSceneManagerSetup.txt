@@ -1,0 +1,37 @@
+sceneSetups:
+- path: Assets/Main Project/Scenes/PrologueScreen.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level1.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level2.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level3.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level4.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level5.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level6.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/Level7.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/ScoreBoard.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
