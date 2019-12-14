@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Nancy
+  - Josh
+  - Cody
+  - Winry
+  - Anna
+  - Riley
+  - Ciel
+  - Leave
   layers:
   - Default
   - TransparentFX

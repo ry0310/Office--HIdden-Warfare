@@ -9,7 +9,6 @@ public class PrologueManager : MonoBehaviour
 {
     public int choiceMade = 0;
 
-    public TMP_Text blackScreen;
     public TMP_Text dialText;
 
     [Header("Response button 1")]
@@ -21,7 +20,6 @@ public class PrologueManager : MonoBehaviour
     public TMP_Text button2Text;
 
     [Header("Animator")]
-    public Animator blackScr;
     public Animator dialogueText;
     public Animator button1TextAnimator;
     public Animator button2TextAnimator;
@@ -59,14 +57,14 @@ public class PrologueManager : MonoBehaviour
     {
         button1.SetActive(false);
         button2.SetActive(false);
-        yield return new WaitForSeconds(2);
+        dialText.enabled = false;
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     IEnumerator startPrologue()
     {
         yield return new WaitForSeconds(1);
-        blackScr.SetBool("isOpen", true);
         dialogueText.SetBool("isOpen", true);
         yield return new WaitForSeconds(1);
         button1TextAnimator.SetBool("isOpen", true);
@@ -76,7 +74,6 @@ public class PrologueManager : MonoBehaviour
     public void pressed()
     {
         choiceMade += 1;
-        Debug.Log("add 1 point");
         StartCoroutine(restartButton());
     }
 

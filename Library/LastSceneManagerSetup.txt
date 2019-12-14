@@ -1,4 +1,12 @@
 sceneSetups:
+- path: Assets/Main Project/Scenes/MainMenu.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Main Project/Scenes/nameScreen.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
 - path: Assets/Main Project/Scenes/PrologueScreen.unity
   isLoaded: 0
   isActive: 0
